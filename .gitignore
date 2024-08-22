@@ -1,0 +1,72 @@
+# Ігноруємо файли системи
+.DS_Store
+Thumbs.db
+
+# Ігноруємо налаштування IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ігноруємо віртуальні середовища
+venv/
+.env/
+.venv/
+env/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ігноруємо файли конфігурацій та ключів
+*.env
+*.key
+*.crt
+
+# Ігноруємо файли журналів та тимчасові файли
+*.log
+*.temp
+*.tmp
+*.bak
+
+# Ігноруємо результати роботи тестів
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ігноруємо пакети залежностей
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Ігноруємо файли баз даних SQLite
+*.db
+*.sqlite3
+
+# Ігноруємо Jupyter Notebook файли з виводом
+.ipynb_checkpoints/
+
+# Ігноруємо файли профілювання
+*.prof
+*.lprof
+*.cprof
+
+# Ігноруємо файли скомпільованих Cython
+*.so
+
+# Ігноруємо локальні файли конфігурацій
+*.local
